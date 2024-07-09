@@ -2894,3 +2894,19 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+/*scroll bar*/
+::-webkit-scrollbar{
+  width: 10px;
+  }
+       
+::-webkit-scrollbar-thumb{
+  border-radius: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#363535), to(#9c9999));
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px rgba(0, 0, 0, 0.25);
+  }
+       
+::-webkit-scrollbar-track{
+  background: radial-gradient(circle, #111111 0%, #2b2828 100%);
+  }
